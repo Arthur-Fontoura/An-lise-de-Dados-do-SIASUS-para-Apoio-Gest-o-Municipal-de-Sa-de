@@ -27,4 +27,4 @@ Projeto de análise exploratória e visualização de dados da produção ambula
 
 
 * **Arthur F. Fontoura** — [GitHub](https://github.com/Arthur-Fontoura)
-* * **Kevin adiel** — [GitHub](https://github.com/kevinadieldasilva-crypto)
+* **Kevin adiel** — [GitHub](https://github.com/kevinadieldasilva-crypto)
