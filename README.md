@@ -23,3 +23,8 @@ Projeto de análise exploratória e visualização de dados da produção ambula
 2. **Dependências Python:**
    ```bash
    pip install -r requirements.txt
+
+
+
+* **Arthur F. Fontoura** — [GitHub](https://github.com/Arthur-Fontoura)
+* * **Kevin adiel** — [GitHub](https://github.com/kevinadieldasilva-crypto)
