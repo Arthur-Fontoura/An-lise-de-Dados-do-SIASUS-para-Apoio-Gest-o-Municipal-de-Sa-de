@@ -1,4 +1,4 @@
-# Análise de Produção Ambulatorial (SIA/SUS) — Ijuí/RS
+# Análise de Dados do SIA/SUS para Apoio à Gestão Municipal de Saúde — Ijuí/RS
 
 Projeto de análise exploratória e visualização de dados da produção ambulatorial do Sistema Único de Saúde (SIA/SUS) nos estabelecimentos de saúde do município de Ijuí/RS (código IBGE `431020`).
 
@@ -12,8 +12,13 @@ Projeto de análise exploratória e visualização de dados da produção ambula
 * **Linguagem:** Python 3.10+
 * **Bibliotecas:** `pandas`, `mysql-connector-python`, `matplotlib`, `seaborn`
 
-## Instruções de Execução
+## Estrutura do Repositório
+* `sql/`: Scripts SQL para criação da dimensão temporal (`DIMTEMPO`) e da view `pa_ijui`.
+* `src/`: Scripts Python responsáveis pela extração, tratamento e geração dos gráficos.
+* `img/`: Gráficos e visualizações gerados a partir das análises.
+* `requirements.txt`: Lista de dependências Python do projeto.
 
+##  Instruções de Execução
 1. **Banco de Dados:** Execute `sql/01_dimtempo.sql` para criar a dimensão temporal e `sql/02_view_pa_ijui.sql` para gerar a view `pa_ijui` no banco `dbsia`.
 2. **Dependências Python:**
    ```bash
